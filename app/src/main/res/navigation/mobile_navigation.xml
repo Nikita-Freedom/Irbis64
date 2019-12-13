@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_QR">
+
+    <fragment
+        android:id="@+id/navigation_QR"
+        android:name="com.example.myapplication.ui.News.NewsFragment"
+        android:label="@string/title_QR"
+        tools:layout="@layout/fragment_qr" />
+
+    <fragment
+        android:id="@+id/navigation_NEWS"
+        android:name="com.example.myapplication.ui.QR.QRFragment"
+        android:label="@string/title_NEWS"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/navigation_SEARCH"
+        android:name="com.example.myapplication.ui.Search.SearchFragment"
+        android:label="@string/title_SEARCH"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_BASKET"
+        android:name="com.example.myapplication.ui.Basket.BasketFragment"
+        android:label="@string/title_BASKET"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/navigation_ACCOUNT"
+        android:name="com.example.myapplication.ui.Account.AccountFragment"
+        android:label="@string/title_ACCOUNT"
+        tools:layout="@layout/fragment_account" />
+
+
+</navigation>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_QR">QR</string>
+    <string name="title_NEWS">NEWS</string>
+    <string name="title_SEARCH">SEARCH</string>
+    <string name="title_BASKET">BASKET</string>
+    <string name="title_ACCOUNT">ACCOUNT</string>
+    <string name="Login">Вход</string>
+    <string name="Registration">Регистрация</string>
+    <string name="Name">Имя</string>
+    <string name="Surname">Фамилия</string>
+    <string name="Patronymic">Отчество</string>
+    <string name="LastName">Прошлое Имя</string>
+    <string name="LastSurname">Прошлая фамилия</string>
+    <string name="LastPatronymic">Прошлое отчество</string>
+    <string name="Sex">пол</string>
+</resources>
